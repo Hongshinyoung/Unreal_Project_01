@@ -1,0 +1,23 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/Enemy_Character.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/Enemy_Controller.uasset",
+				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/G9/KFVYA1FIX0N82AXF33TBRT.uasset",
+				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/YR/KH7YTRWMXOA27N77KVFGDO.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/BB_Enemy.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/BT_Enemy.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/BTT_ChasePlayer.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/BTT_FindRandomPatrol.uasset",
+				"C:/UnrealProjects/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/HQ/MTO8V406X7ZBN3U2S3P1KZ.uasset",
+				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/M9/XHYELLWOPCAZOG8KM9V7ED.uasset",
+				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/XK/8QU7A48BNK77O73JTAQFRE.uasset"
+			]
+		}
+	]
+}

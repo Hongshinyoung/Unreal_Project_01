@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/UnrealProjects/Unreal_Project_01/MyProject/Content/ThirdPerson/AI/BT_Enemy.uasset",
+				"C:/UnrealProjects/Unreal_Project_01/MyProject/Content/ThirdPerson/AI/BTT_FindRandomPatrol.uasset",
 				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/Enemy_Character.uasset",
 				"C:/UnrealProjects/MyProject/Content/ThirdPerson/AI/Enemy_Controller.uasset",
 				"C:/UnrealProjects/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/G9/KFVYA1FIX0N82AXF33TBRT.uasset",

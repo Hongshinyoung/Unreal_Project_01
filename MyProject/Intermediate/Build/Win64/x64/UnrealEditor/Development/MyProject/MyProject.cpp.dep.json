@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\unrealprojects\\myproject\\source\\myproject\\myproject.cpp",
+        "Source": "c:\\unrealprojects\\unreal_project_01\\myproject\\source\\myproject\\myproject.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "PCH": "c:\\unrealprojects\\unreal_project_01\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
-            "c:\\unrealprojects\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
-            "c:\\unrealprojects\\myproject\\source\\myproject\\myproject.h"
+            "c:\\unrealprojects\\unreal_project_01\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\unrealprojects\\unreal_project_01\\myproject\\source\\myproject\\myproject.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

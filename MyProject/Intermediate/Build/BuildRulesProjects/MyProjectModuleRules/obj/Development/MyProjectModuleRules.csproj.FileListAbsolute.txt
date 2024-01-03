@@ -30,3 +30,4 @@ C:\UnrealProjects\Unreal_Project_01\MyProject\Intermediate\Build\BuildRulesProje
 C:\UnrealProjects\Unreal_Project_01\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\obj\Development\MyProjectModuleRules.dll
 C:\UnrealProjects\Unreal_Project_01\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\obj\Development\refint\MyProjectModuleRules.dll
 C:\UnrealProjects\Unreal_Project_01\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\obj\Development\MyProjectModuleRules.pdb
+C:\UnrealProjects\Unreal_Project_01\MyProject\Intermediate\Build\BuildRulesProjects\MyProjectModuleRules\obj\Development\MyProjectModuleRules.sourcelink.json

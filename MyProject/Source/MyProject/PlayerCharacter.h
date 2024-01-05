@@ -45,11 +45,16 @@ protected:
     //캐릭터에게 앉기 종료를 요청합니다.
     void EndCrouch();
 
+    virtual void Landed(const FHitResult& Hit) override;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+    bool bFirstJump;
+    void DoubleJump();
+
 
 };

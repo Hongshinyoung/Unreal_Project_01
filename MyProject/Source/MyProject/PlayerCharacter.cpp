@@ -89,6 +89,12 @@ void APlayerCharacter::EndCrouch()
     UnCrouch();
 }
 
+void APlayerCharacter::Landed(const FHitResult& Hit)
+{
+    Super::Landed(Hit);
+    bFirstJump = true;
+}
+
 // Called every frame
 void APlayerCharacter::Tick(float DeltaTime)
 {
@@ -103,13 +109,30 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
     PlayerInputComponent->BindAxis("MoveForward", this, &APlayerCharacter::MoveForward);
     PlayerInputComponent->BindAxis("MoveRight", this, &APlayerCharacter::MoveRight);
+
     PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
     PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
-    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+
+    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &APlayerCharacter::DoubleJump);
     PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
     PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &APlayerCharacter::BeginCrouch);
     PlayerInputComponent->BindAction("Crouch", IE_Released, this, &APlayerCharacter::EndCrouch);
+
     PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &APlayerCharacter::BeginSprint);
     PlayerInputComponent->BindAction("Sprint", IE_Released, this, &APlayerCharacter::EndSprint);
+}
+
+void APlayerCharacter::DoubleJump()
+{
+    if (bFirstJump)
+    {
+        bFirstJump = false;
+        ACharacter::Jump();
+    }
+    else
+    {
+        LaunchCharacter(FVector(0.0f, 0.0f, 700.0f), false, true);
+    }
 }
 
